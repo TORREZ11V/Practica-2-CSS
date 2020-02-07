@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-kerning: 'Ubuntu', serif;
+  background-color: #860ECA;
+  color:white;
+  font-size: 22px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/s.gif);
+}
+
+#container{
+  display:grid;
+  border: 3px solid black;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: calc(10vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(10vh - 10px);
+  grid-column-gap: 30px;
+  grid-row-gap: 35px;
+
+}
+
+#container .Titulo{
+  padding: 15px;
+  background-color:#1100A4;
+  border-radius: 20px;
+  grid-row:1/2;
+  grid-column: 1/5;
+  font-size: 100px;
+  font-weight:200px;
+}
+
+#container .celda2{
+  padding: 9px;
+  background-color:#596ac3;
+  border-radius: 5px;
+  grid-row:2/3;
+  grid-column: 2/2;
+}
+
+#container .celda3{
+  padding: 9px;
+  background-color:#97bc27;
+  border-radius: 5px;
+  grid-row:2/3;
+  grid-column: 3/4;
+}
+
+#container .celda4{
+  padding: 9px;
+  background-color:#ff9800;
+  border-radius: 5px;
+  grid-row:3/4;
+  grid-column: 2/3;
+}
+
+#container .celda5{
+  padding: 9px;
+  background-color:#ff3700;
+  border-radius: 5px;
+  grid-row:3/4;
+  grid-column: 3/4;
+}
+
+#container .pie{
+  padding: 9px;
+  background-color:#480A52;
+  border-radius: 20px;
+  grid-row:4/5;
+  grid-column: 1/5;
+  font-size: 200px;
+  font-weight: 100px;
+}
+
+img{
+  width: 100%; height: 100%;
+}
